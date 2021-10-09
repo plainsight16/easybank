@@ -1,0 +1,52 @@
+.article {
+  background-color: $VeryLightGray;
+  &_container h2 {
+    margin-bottom: 3.625rem;
+  }
+  &_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    @include breakpointsUp(tablet) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 1.875rem;
+    }
+  }
+  &_item {
+    background-color: $White;
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    transition: all 150ms ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  &_image {
+    background-image: url("/images/image-currency.jpg");
+    height: 11.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  &_text {
+    padding-bottom: 2.5rem;
+    padding-top: 1.875rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+    @include breakpointsUp(tablet) {
+      padding: 1.875rem 1.5rem;
+    }
+  }
+  &_author {
+    font-size: 0.625rem;
+    margin-bottom: 1rem;
+  }
+  &_topic {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  &_paragraph {
+    font-size: 0.875rem;
+  }
+}

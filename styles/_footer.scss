@@ -1,0 +1,65 @@
+.footer {
+  background-color: $DarkBlue;
+  &_container {
+    & > div:not(:last-child) {
+      margin-bottom: 2.1875rem;
+    }
+    @include breakpointsUp(tablet) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &_logo_icons {
+    text-align: center;
+  }
+  &_icons {
+    margin-top: 1.625rem;
+    @include breakpointsUp(tablet) {
+      margin-top: 3.9375rem;
+    }
+    & > svg {
+      cursor: pointer;
+      & > path {
+        transition: all 150ms ease-in-out;
+        &:hover {
+          fill: $LimeGreen;
+        }
+      }
+      &:not(:last-child) {
+        margin-right: 0.875rem;
+      }
+    }
+  }
+  &_links {
+    @include breakpointsUp(tablet) {
+      display: flex;
+      justify-content: space-between;
+      & > div:not(:last-child) {
+        margin-right: 7.9375rem;
+      }
+    }
+    & a {
+      display: block;
+      text-align: center;
+      line-height: 2;
+      transition: all 150ms ease-in-out;
+      @include breakpointsUp(tablet) {
+        text-align: left;
+      }
+      &:hover {
+        color: $LimeGreen;
+      }
+    }
+  }
+
+  &_button_copyright {
+    text-align: center;
+    & > button {
+      margin-bottom: 1.625rem;
+      @include breakpointsUp(tablet) {
+        margin-bottom: 2.0625rem;
+      }
+    }
+  }
+}
