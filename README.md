@@ -50,13 +50,13 @@ Positioning in Css was challenging at times.
 
 ### Useful resources
 
-- [resource 1](https://codepen.io) - This helped me with building out the harmbuger component in the navigation section.
-- [Example resource 2](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing cheat-sheet for flexbox and its properties with detailed explanations.
+- [https://codepen.io]- This helped me with building out the harmbuger component in the navigation section.
+- [https://css-tricks.com/snippets/css/a-guide-to-flexbox/]- This is an amazing cheat-sheet for flexbox and its properties with detailed explanations.
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@plainsight16](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
 ## Acknowledgments
